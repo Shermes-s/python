@@ -11,7 +11,7 @@ class guessTheWord():
         self.choiceWord()
         self.guessLetter()
     def initWords(self):
-        self.words = words = ["ekmek","proje"]
+        self.words = ["ekmek","proje"]
     def choiceWord(self):
         self.choosenWord = self.words[int((random()*len(self.words)))]
         self.replacingWord = self.choosenWord
